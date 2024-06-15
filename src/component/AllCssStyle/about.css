@@ -1,0 +1,47 @@
+.about-container {
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to left bottom, #F2E3C6 0%, #A7A1A5 100%);
+
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  
+}
+
+
+.about-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .about-content {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .about-image {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .about-text {
+        text-align: left;
+    }
+}
